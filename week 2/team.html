@@ -7,8 +7,21 @@
                 color: gray;
                 font-size: 14px;
             }
+            .borderless-buttons{
+                border: none;
+                padding: 8px 16px;
+                border-radius: 7px;
+                margin: 5px;
+            }
             .member-container{
                 text-align: center;
+                border: .5px solid grey;
+                border-radius: 20px;
+                margin: 5px;
+            }
+            .member-container img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
             }
             .member-container h3{
                 font-weight: 400;
@@ -26,8 +39,10 @@
             }
             .contact-button{
                 background-color: white;
-                 color: grey
-            }
+                color: grey;
+                border: .5px solid grey;
+                }
+
 
         </style>
     </head>
@@ -41,8 +56,8 @@
             </div>
 
             <div>
-                <button class="about-button" title="go to about us page"> About us</button>
-                <button  class="contact-button" title="go to contact page"> Contact</button>
+                <button class=" borderless-buttons about-button" title="go to about us page"> About us</button>
+                <button  class="borderless-buttons contact-button" title="go to contact page"> Contact</button>
             </div><br><br>
         </div>
            
